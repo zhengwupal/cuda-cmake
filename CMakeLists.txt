@@ -43,7 +43,7 @@ include(GNUInstallDirs)
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     message(STATUS "Setting build type to 'Release' as none was specified.")
     set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
-    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "" "Debug" "Release")
+    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release")
 else()
     message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 endif()
@@ -73,24 +73,26 @@ set(CMAKE_CUDA_FLAGS_DEBUG "${CMAKE_CUDA_FLAGS} -O0 -g -lineinfo")
 # cusolver_examples target
 # ##########################################
 function(add_cusolver_example GROUP_TARGET EXAMPLE_NAME EXAMPLE_SOURCES)
+# find_package(CUDAToolkit)
 add_executable(${EXAMPLE_NAME} src/${EXAMPLE_SOURCES})
 set_property(TARGET ${EXAMPLE_NAME} PROPERTY CUDA_ARCHITECTURES OFF)
-target_include_directories(${EXAMPLE_NAME}
-    PUBLIC
-        ${CUDA_INCLUDE_DIRS}
-)
-message(STATUS "0000000000: ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES}")
-# target_link_libraries(${EXAMPLE_NAME}
+# target_include_directories(${EXAMPLE_NAME}
 #     PUBLIC
-#         cusolver
-#         cublas
-#         cublasLt
-#         cusparse
-#         cusolverMg
+#         ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES}
 # )
-set_target_properties(${EXAMPLE_NAME} PROPERTIES
-    POSITION_INDEPENDENT_CODE ON
+message(STATUS "0000000000: ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES}")
+message(STATUS "000000111111111: ${CUDA_INCLUDE_DIRS}")
+target_link_libraries(${EXAMPLE_NAME}
+    PUBLIC
+        cusolver
+        # cublas
+        # cublasLt
+        cusparse
+        # cusolverMg
 )
+# set_target_properties(${EXAMPLE_NAME} PROPERTIES
+#     POSITION_INDEPENDENT_CODE ON
+# )
 
 # Install example
 install(
@@ -111,6 +113,7 @@ message(STATUS "11111111111111: ${CMAKE_SOURCE_DIR}")
 add_cusolver_example(cusolver_examples "cusolver_csrqr_example1" cusolver_csrqr_example1.cu)
 add_cusolver_example(cusolver_examples "cusolver_csrqr_example2" cusolver_csrqr_example2.cu)
 add_cusolver_example(cusolver_examples "test_allocator" test_allocator.cu)
+add_cusolver_example(cusolver_examples "add" add.cu)
 
 # ##########################################
 # cusolver_examples directories
@@ -118,6 +121,7 @@ add_cusolver_example(cusolver_examples "test_allocator" test_allocator.cu)
 
 # By default put binaries in build/bin (pre-install)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+message(STATUS "11111122222: ${CMAKE_BINARY_DIR}")
 
 # Installation directories
 set(CUSOLVER_EXAMPLES_BINARY_INSTALL_DIR "cusolver_examples/bin")

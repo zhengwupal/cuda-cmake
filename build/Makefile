@@ -213,6 +213,43 @@ test_allocator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_allocator.dir/build.make CMakeFiles/test_allocator.dir/build
 .PHONY : test_allocator/fast
 
+#=============================================================================
+# Target rules for targets named add
+
+# Build rule for target.
+add: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add
+.PHONY : add
+
+# fast build rule for target.
+add/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/build
+.PHONY : add/fast
+
+src/add.o: src/add.cu.o
+.PHONY : src/add.o
+
+# target to build an object file
+src/add.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/add.cu.o
+.PHONY : src/add.cu.o
+
+src/add.i: src/add.cu.i
+.PHONY : src/add.i
+
+# target to preprocess a source file
+src/add.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/add.cu.i
+.PHONY : src/add.cu.i
+
+src/add.s: src/add.cu.s
+.PHONY : src/add.s
+
+# target to generate assembly for a file
+src/add.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/src/add.cu.s
+.PHONY : src/add.cu.s
+
 src/cusolver_csrqr_example1.o: src/cusolver_csrqr_example1.cu.o
 .PHONY : src/cusolver_csrqr_example1.o
 
@@ -298,9 +335,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... cusolver_examples"
+	@echo "... add"
 	@echo "... cusolver_csrqr_example1"
 	@echo "... cusolver_csrqr_example2"
 	@echo "... test_allocator"
+	@echo "... src/add.o"
+	@echo "... src/add.i"
+	@echo "... src/add.s"
 	@echo "... src/cusolver_csrqr_example1.o"
 	@echo "... src/cusolver_csrqr_example1.i"
 	@echo "... src/cusolver_csrqr_example1.s"

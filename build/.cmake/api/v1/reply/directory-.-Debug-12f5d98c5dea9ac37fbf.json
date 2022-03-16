@@ -18,38 +18,50 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 111,
-				"parent" : 0
-			},
-			{
-				"command" : 0,
-				"file" : 0,
-				"line" : 96,
-				"parent" : 1
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 112,
-				"parent" : 0
-			},
-			{
-				"command" : 0,
-				"file" : 0,
-				"line" : 96,
-				"parent" : 3
-			},
-			{
-				"command" : 1,
-				"file" : 0,
 				"line" : 113,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 96,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
 				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 7
 			}
 		]
 	},
@@ -64,7 +76,7 @@
 				"cusolver_csrqr_example1"
 			],
 			"targetId" : "cusolver_csrqr_example1::@6890427a1f51a3e7e1df",
-			"targetIndex" : 0,
+			"targetIndex" : 1,
 			"type" : "target"
 		},
 		{
@@ -76,7 +88,7 @@
 				"cusolver_csrqr_example2"
 			],
 			"targetId" : "cusolver_csrqr_example2::@6890427a1f51a3e7e1df",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -88,7 +100,19 @@
 				"test_allocator"
 			],
 			"targetId" : "test_allocator::@6890427a1f51a3e7e1df",
-			"targetIndex" : 3,
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"add"
+			],
+			"targetId" : "add::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],

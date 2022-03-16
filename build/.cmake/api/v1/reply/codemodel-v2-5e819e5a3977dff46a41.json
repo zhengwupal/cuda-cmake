@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-72be7a1ed1adfcd7d61f.json",
+					"jsonFile" : "directory-.-Debug-12f5d98c5dea9ac37fbf.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.18.0"
@@ -19,11 +19,12 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -37,7 +38,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -45,29 +47,36 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add-Debug-1f8de31e52c44330c0b8.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "cusolver_csrqr_example1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cusolver_csrqr_example1-Release-7d17908ad8e424a913a0.json",
+					"jsonFile" : "target-cusolver_csrqr_example1-Debug-5ea002d6691392d21947.json",
 					"name" : "cusolver_csrqr_example1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cusolver_csrqr_example2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cusolver_csrqr_example2-Release-dd273c174ae4c1c843c4.json",
+					"jsonFile" : "target-cusolver_csrqr_example2-Debug-014fe89dfcafd8bc8544.json",
 					"name" : "cusolver_csrqr_example2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cusolver_examples::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cusolver_examples-Release-f3ef9e93667a7fbeadcd.json",
+					"jsonFile" : "target-cusolver_examples-Debug-ce32a705f8d6f9848d19.json",
 					"name" : "cusolver_examples",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_allocator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_allocator-Release-c81ea9b0dfcd6cfc62b7.json",
+					"jsonFile" : "target-test_allocator-Debug-cd5d773356612f818c86.json",
 					"name" : "test_allocator",
 					"projectIndex" : 0
 				}

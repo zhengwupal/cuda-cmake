@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/caizhw/projects/cuda-cmake/build
 all: CMakeFiles/cusolver_csrqr_example1.dir/all
 all: CMakeFiles/cusolver_csrqr_example2.dir/all
 all: CMakeFiles/test_allocator.dir/all
+all: CMakeFiles/add.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,6 +78,7 @@ clean: CMakeFiles/cusolver_examples.dir/clean
 clean: CMakeFiles/cusolver_csrqr_example1.dir/clean
 clean: CMakeFiles/cusolver_csrqr_example2.dir/clean
 clean: CMakeFiles/test_allocator.dir/clean
+clean: CMakeFiles/add.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -86,6 +88,7 @@ clean: CMakeFiles/test_allocator.dir/clean
 CMakeFiles/cusolver_examples.dir/all: CMakeFiles/cusolver_csrqr_example1.dir/all
 CMakeFiles/cusolver_examples.dir/all: CMakeFiles/cusolver_csrqr_example2.dir/all
 CMakeFiles/cusolver_examples.dir/all: CMakeFiles/test_allocator.dir/all
+CMakeFiles/cusolver_examples.dir/all: CMakeFiles/add.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num= "Built target cusolver_examples"
@@ -93,7 +96,7 @@ CMakeFiles/cusolver_examples.dir/all: CMakeFiles/test_allocator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cusolver_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cusolver_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/cusolver_examples.dir/rule
@@ -114,7 +117,7 @@ CMakeFiles/cusolver_examples.dir/clean:
 CMakeFiles/cusolver_csrqr_example1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_csrqr_example1.dir/build.make CMakeFiles/cusolver_csrqr_example1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_csrqr_example1.dir/build.make CMakeFiles/cusolver_csrqr_example1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=1,2 "Built target cusolver_csrqr_example1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=3,4 "Built target cusolver_csrqr_example1"
 .PHONY : CMakeFiles/cusolver_csrqr_example1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +143,7 @@ CMakeFiles/cusolver_csrqr_example1.dir/clean:
 CMakeFiles/cusolver_csrqr_example2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_csrqr_example2.dir/build.make CMakeFiles/cusolver_csrqr_example2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_csrqr_example2.dir/build.make CMakeFiles/cusolver_csrqr_example2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=3,4 "Built target cusolver_csrqr_example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=5,6 "Built target cusolver_csrqr_example2"
 .PHONY : CMakeFiles/cusolver_csrqr_example2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +169,7 @@ CMakeFiles/cusolver_csrqr_example2.dir/clean:
 CMakeFiles/test_allocator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_allocator.dir/build.make CMakeFiles/test_allocator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_allocator.dir/build.make CMakeFiles/test_allocator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=5,6 "Built target test_allocator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=7,8 "Built target test_allocator"
 .PHONY : CMakeFiles/test_allocator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -184,6 +187,32 @@ test_allocator: CMakeFiles/test_allocator.dir/rule
 CMakeFiles/test_allocator.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_allocator.dir/build.make CMakeFiles/test_allocator.dir/clean
 .PHONY : CMakeFiles/test_allocator.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/add.dir
+
+# All Build rule for target.
+CMakeFiles/add.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num=1,2 "Built target add"
+.PHONY : CMakeFiles/add.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 0
+.PHONY : CMakeFiles/add.dir/rule
+
+# Convenience name for target.
+add: CMakeFiles/add.dir/rule
+.PHONY : add
+
+# clean rule for target.
+CMakeFiles/add.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/clean
+.PHONY : CMakeFiles/add.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
