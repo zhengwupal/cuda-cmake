@@ -26,7 +26,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
   "/usr/local/share/cmake-3.22/Modules/Compiler/GNU.cmake"
   "/usr/local/share/cmake-3.22/Modules/Compiler/NVIDIA-CUDA.cmake"
-  "/usr/local/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
   "/usr/local/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/local/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/local/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -47,7 +46,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cusolver_examples.dir/DependInfo.cmake"
   "CMakeFiles/cusolver_csrqr_example1.dir/DependInfo.cmake"
   "CMakeFiles/cusolver_csrqr_example2.dir/DependInfo.cmake"
   "CMakeFiles/test_allocator.dir/DependInfo.cmake"

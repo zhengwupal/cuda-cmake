@@ -1,4 +1,3 @@
-/home/caizhw/projects/cuda-cmake/build/CMakeFiles/cusolver_examples.dir
 /home/caizhw/projects/cuda-cmake/build/CMakeFiles/cusolver_csrqr_example1.dir
 /home/caizhw/projects/cuda-cmake/build/CMakeFiles/cusolver_csrqr_example2.dir
 /home/caizhw/projects/cuda-cmake/build/CMakeFiles/test_allocator.dir

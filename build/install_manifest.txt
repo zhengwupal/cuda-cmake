@@ -1,4 +1,0 @@
-/home/caizhw/projects/cuda-cmake/build/bin/cusolver_csrqr_example1
-/home/caizhw/projects/cuda-cmake/build/bin/cusolver_csrqr_example2
-/home/caizhw/projects/cuda-cmake/build/bin/test_allocator
-/home/caizhw/projects/cuda-cmake/build/bin/add

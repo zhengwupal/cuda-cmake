@@ -162,19 +162,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cusolver_examples
-
-# Build rule for target.
-cusolver_examples: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cusolver_examples
-.PHONY : cusolver_examples
-
-# fast build rule for target.
-cusolver_examples/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/build
-.PHONY : cusolver_examples/fast
-
-#=============================================================================
 # Target rules for targets named cusolver_csrqr_example1
 
 # Build rule for target.
@@ -334,7 +321,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cusolver_examples"
 	@echo "... add"
 	@echo "... cusolver_csrqr_example1"
 	@echo "... cusolver_csrqr_example2"

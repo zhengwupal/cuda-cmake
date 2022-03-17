@@ -1,22 +1,22 @@
 [
 {
   "directory": "/home/caizhw/projects/cuda-cmake/build",
-  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -lineinfo -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example1.cu -o CMakeFiles/cusolver_csrqr_example1.dir/src/cusolver_csrqr_example1.cu.o",
+  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -G -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example1.cu -o CMakeFiles/cusolver_csrqr_example1.dir/src/cusolver_csrqr_example1.cu.o",
   "file": "/home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example1.cu"
 },
 {
   "directory": "/home/caizhw/projects/cuda-cmake/build",
-  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -lineinfo -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example2.cu -o CMakeFiles/cusolver_csrqr_example2.dir/src/cusolver_csrqr_example2.cu.o",
+  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -G -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example2.cu -o CMakeFiles/cusolver_csrqr_example2.dir/src/cusolver_csrqr_example2.cu.o",
   "file": "/home/caizhw/projects/cuda-cmake/src/cusolver_csrqr_example2.cu"
 },
 {
   "directory": "/home/caizhw/projects/cuda-cmake/build",
-  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -lineinfo -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/test_allocator.cu -o CMakeFiles/test_allocator.dir/src/test_allocator.cu.o",
+  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -G -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/test_allocator.cu -o CMakeFiles/test_allocator.dir/src/test_allocator.cu.o",
   "file": "/home/caizhw/projects/cuda-cmake/src/test_allocator.cu"
 },
 {
   "directory": "/home/caizhw/projects/cuda-cmake/build",
-  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -lineinfo -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/add.cu -o CMakeFiles/add.dir/src/add.cu.o",
+  "command": "/usr/local/cuda-11.2/bin/nvcc -forward-unknown-to-host-compiler  -I/home/caizhw/projects/cuda-cmake/utils  -O0 -g -G -std=c++14 -x cu -c /home/caizhw/projects/cuda-cmake/src/add.cu -o CMakeFiles/add.dir/src/add.cu.o",
   "file": "/home/caizhw/projects/cuda-cmake/src/add.cu"
 }
 ]

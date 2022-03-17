@@ -74,41 +74,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cusolver_examples.dir/clean
 clean: CMakeFiles/cusolver_csrqr_example1.dir/clean
 clean: CMakeFiles/cusolver_csrqr_example2.dir/clean
 clean: CMakeFiles/test_allocator.dir/clean
 clean: CMakeFiles/add.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/cusolver_examples.dir
-
-# All Build rule for target.
-CMakeFiles/cusolver_examples.dir/all: CMakeFiles/cusolver_csrqr_example1.dir/all
-CMakeFiles/cusolver_examples.dir/all: CMakeFiles/cusolver_csrqr_example2.dir/all
-CMakeFiles/cusolver_examples.dir/all: CMakeFiles/test_allocator.dir/all
-CMakeFiles/cusolver_examples.dir/all: CMakeFiles/add.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caizhw/projects/cuda-cmake/build/CMakeFiles --progress-num= "Built target cusolver_examples"
-.PHONY : CMakeFiles/cusolver_examples.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/cusolver_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cusolver_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caizhw/projects/cuda-cmake/build/CMakeFiles 0
-.PHONY : CMakeFiles/cusolver_examples.dir/rule
-
-# Convenience name for target.
-cusolver_examples: CMakeFiles/cusolver_examples.dir/rule
-.PHONY : cusolver_examples
-
-# clean rule for target.
-CMakeFiles/cusolver_examples.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cusolver_examples.dir/build.make CMakeFiles/cusolver_examples.dir/clean
-.PHONY : CMakeFiles/cusolver_examples.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cusolver_csrqr_example1.dir

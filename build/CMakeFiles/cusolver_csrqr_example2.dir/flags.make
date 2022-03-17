@@ -6,5 +6,5 @@ CUDA_DEFINES =
 
 CUDA_INCLUDES = -I/home/caizhw/projects/cuda-cmake/utils
 
-CUDA_FLAGS =  -O0 -g -lineinfo -std=c++14
+CUDA_FLAGS =  -O0 -g -G -std=c++14
 
