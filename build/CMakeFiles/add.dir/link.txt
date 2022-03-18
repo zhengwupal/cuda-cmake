@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/add.dir/src/add.cu.o -o add  -lcusolver -lcusparse -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda-11.2/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.2/targets/x86_64-linux/lib"

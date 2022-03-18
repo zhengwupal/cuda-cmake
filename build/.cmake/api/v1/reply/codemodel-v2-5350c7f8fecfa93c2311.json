@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-215ea7f260ed4be19316.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cusolver_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add-Debug-b22e6cfd667da0963225.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cusolver_csrqr_example1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cusolver_csrqr_example1-Debug-34f9ce677f925aad65d6.json",
+					"name" : "cusolver_csrqr_example1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cusolver_csrqr_example2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cusolver_csrqr_example2-Debug-1ead0e3abc9116343fbd.json",
+					"name" : "cusolver_csrqr_example2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_allocator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_allocator-Debug-329d4a84224e2ea957ff.json",
+					"name" : "test_allocator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/caizhw/projects/cuda-cmake/build",
+		"source" : "/home/caizhw/projects/cuda-cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
