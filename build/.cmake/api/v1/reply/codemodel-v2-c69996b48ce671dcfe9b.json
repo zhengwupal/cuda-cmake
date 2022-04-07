@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4ebeb36a4f2d3826ebda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cusolver_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add-Debug-063d9aede63d8a70444b.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_test-Debug-2abd5a1531af4233241a.json",
+					"name" : "c_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cusolver_csrqr_example1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cusolver_csrqr_example1-Debug-454facdfee0f323f5400.json",
+					"name" : "cusolver_csrqr_example1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cusolver_csrqr_example2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cusolver_csrqr_example2-Debug-24da923ca5e359fc6917.json",
+					"name" : "cusolver_csrqr_example2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifdef_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifdef_test-Debug-67149add4f381d89f3f4.json",
+					"name" : "ifdef_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_test-Debug-d126e8bc09937d66ccf6.json",
+					"name" : "point_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_allocator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_allocator-Debug-6330bb96dbef8ad2c9d7.json",
+					"name" : "test_allocator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/caizhw/projects/cuda-cmake/build",
+		"source" : "/home/caizhw/projects/cuda-cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

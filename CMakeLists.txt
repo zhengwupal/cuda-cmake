@@ -1,18 +1,19 @@
 # ---[ Check cmake version.
 cmake_minimum_required(VERSION 3.18.0 FATAL_ERROR)
 
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+# set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 
 # ---[ Project specification.
-project(cusolver_examples LANGUAGES C CXX CUDA Go)
+# project(cusolver_examples LANGUAGES C CXX CUDA Go)
+project(cusolver_examples LANGUAGES C CXX CUDA)
 
 # include(GNUInstallDirs)
 
-include(cmake/CMakeDetermineGoCompiler.cmake)
-include(cmake/CMakeGoCompiler.cmake.in)
-include(cmake/CMakeTestGoCompiler.cmake)
-include(cmake/CMakeGoInformation.cmake)
+# include(cmake/CMakeDetermineGoCompiler.cmake)
+# include(cmake/CMakeGoCompiler.cmake.in)
+# include(cmake/CMakeTestGoCompiler.cmake)
+# include(cmake/CMakeGoInformation.cmake)
 # ##########################################
 # cusolver_examples build mode
 # ##########################################
@@ -102,7 +103,11 @@ example("cusolver_csrqr_example1" cusolver_csrqr_example1.cu)
 example("cusolver_csrqr_example2" cusolver_csrqr_example2.cu)
 example("test_allocator" test_allocator.cu)
 example("add" add.cu)
-example("test-go" test-go.go)
+# example("test-go" test-go.go)
+example("ifdef_test" ifdef_test.cu)
+example("point_test" point_test.cu)
+add_executable("c_test" src/c_test.c)
+
 
 # ##########################################
 # cusolver_examples directories

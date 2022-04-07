@@ -1,0 +1,13 @@
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/cusolver_csrqr_example1.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/cusolver_csrqr_example2.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/test_allocator.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/add.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/ifdef_test.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/point_test.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/c_test.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/edit_cache.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/list_install_components.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/install.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/install/local.dir
+/home/caizhw/projects/cuda-cmake/build/CMakeFiles/install/strip.dir
